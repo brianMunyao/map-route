@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b4fa3438cc924468739c79398e3bc064 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b4fa3438cc924468739c79398e3bc064" ></div>
+        
+</body>
+<script>    
+    
+            var map_b4fa3438cc924468739c79398e3bc064 = L.map(
+                "map_b4fa3438cc924468739c79398e3bc064",
+                {
+                    center: [-1.2832533, 36.8172449],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7d6f58ec800c3348be2baab99a710d85 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            var marker_9c26409163efaf53835c0146583e17fc = L.marker(
+                [-1.30326415, 36.826384099341595],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_9c26409163efaf53835c0146583e17fc.bindTooltip(
+                `<div>
+                     <strong>Nairobi</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f20e33c85e6f724ca7b8aa5ba47bfcc = L.marker(
+                [-4.05052, 39.667169],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_7f20e33c85e6f724ca7b8aa5ba47bfcc.bindTooltip(
+                `<div>
+                     <strong>Mombasa</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8de212392ad84a636c6e1d5be0fcb304 = L.marker(
+                [-0.1029109, 34.7541761],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_8de212392ad84a636c6e1d5be0fcb304.bindTooltip(
+                `<div>
+                     <strong>Kisumu</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9eb85db06225ec2d96188045d5212f1 = L.marker(
+                [0.5198329, 35.2715481],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_c9eb85db06225ec2d96188045d5212f1.bindTooltip(
+                `<div>
+                     <strong>Eldoret</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5b202634aedb2c27f5df648306dd263 = L.marker(
+                [-1.5642219499999999, 38.372811654368775],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_e5b202634aedb2c27f5df648306dd263.bindTooltip(
+                `<div>
+                     <strong>Kitui</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32075a64569a740457fb3396e4bf3393 = L.marker(
+                [-2.25709305, 37.87717148162716],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_32075a64569a740457fb3396e4bf3393.bindTooltip(
+                `<div>
+                     <strong>Makueni</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ade47c926e3622e2ca2328a4b281e696 = L.marker(
+                [-0.2802724, 36.0712048],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_ade47c926e3622e2ca2328a4b281e696.bindTooltip(
+                `<div>
+                     <strong>Nakuru</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbcab939e2c5fcd6beaaeb5b5e9c7c6f = L.marker(
+                [0.01403, 37.074632],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_dbcab939e2c5fcd6beaaeb5b5e9c7c6f.bindTooltip(
+                `<div>
+                     <strong>Nanyuki</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8879867d9eb93bc94c419f3a0c6c9265 = L.marker(
+                [-3.15073925, 39.67507159193717],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_8879867d9eb93bc94c419f3a0c6c9265.bindTooltip(
+                `<div>
+                     <strong>Kilifi</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a54477d2e677968e3d5ed1f45cc45b8f = L.marker(
+                [-0.52360305, 40.356386905787105],
+                {}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+    
+            marker_a54477d2e677968e3d5ed1f45cc45b8f.bindTooltip(
+                `<div>
+                     <strong>Garissa</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7230dcba38c8490dbd87c311005f3275 = L.polyline(
+                [[-0.1029109, 34.7541761], [-1.30326415, 36.826384099341595], [0.01403, 37.074632]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b4fa3438cc924468739c79398e3bc064);
+        
+</script>
